@@ -1,0 +1,66 @@
+/* Background */
+body {
+    background-color: #f0f9ff; /* very light blue */
+}
+
+/* Main container */
+.block-container {
+    padding-top: 2rem;
+}
+
+/* Title */
+h1 {
+    color: #0f172a;
+}
+
+/* Chat message box */
+.stChatMessage {
+    border-radius: 14px;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #e0f2fe;
+}
+
+/* User message (light blue bubble) */
+[data-testid="stChatMessage"][aria-label="user"] {
+    background-color: #bae6fd;
+    color: #0c4a6e;
+}
+
+/* Assistant message (white with border) */
+[data-testid="stChatMessage"][aria-label="assistant"] {
+    background-color: #ffffff;
+    color: #1e293b;
+    border: 1px solid #e2e8f0;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background-color: #ffffff;
+    border-right: 1px solid #e0f2fe;
+}
+
+/* Input box */
+.stChatInput {
+    border-radius: 12px;
+    border: 1px solid #bae6fd;
+}
+
+/* Buttons */
+button {
+    border-radius: 8px !important;
+    background-color: #38bdf8 !important;
+    color: white !important;
+}
+
+/* Button hover */
+button:hover {
+    background-color: #0ea5e9 !important;
+}
+
+/* Disclaimer box */
+div[style*="background-color:#fff3cd"] {
+    background-color: #e0f2fe !important;
+    color: #075985 !important;
+    border: 1px solid #bae6fd !important;
+}
